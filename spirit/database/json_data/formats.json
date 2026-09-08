@@ -6,6 +6,7 @@
       "formatName": "Modified",
       "sets": [
         "Free_Energy",
+        "SV4PT5",
         "SV05",
         "SV06",
         "SV065",
@@ -23,7 +24,8 @@
         "ME4",
         "ME5",
         "SVP",
-        "ME6"
+        "ME6",
+        "PZ5"
       ],
       "allSets": false,
       "bannedCards": [],
@@ -55,6 +57,7 @@
         "CEL25",
         "PGO",
         "CZ",
+        "SV4PT5",
         "SV05",
         "SV06",
         "SV065",
@@ -75,7 +78,8 @@
         "ME5",
         "SVP",
         "ME6",
-        "SV1"
+        "SV1",
+        "PZ5"
       ],
       "allSets": false,
       "bannedCards": [],

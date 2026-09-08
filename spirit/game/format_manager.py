@@ -15,8 +15,8 @@ FORMATS_PATH = os.path.abspath(os.path.join(
 
 LEGACY_SETS = {"BW1"}
 STANDARD_NON_SWSH_SETS = {
-    "CEL25", "PGO", "CZ", "CUSTOM", "Free_Energy", "SV05", "SV06", "SV065", "SV07", "SV08",
-    "SV085", "SV10",
+    "CEL25", "PGO", "CZ", "CUSTOM", "Free_Energy", "SV4PT5", "SV05", "SV06", "SV065", "SV07", "SV08",
+    "SV085", "SV10", "PZ5",
 }
 
 
@@ -30,7 +30,7 @@ def is_basic_energy_card(card) -> bool:
 def _default_formats() -> List[GameFormat]:
     """All loaded sets -> Expanded/Unlimited, SWSH block -> Standard, BW -> Legacy."""
     loaded = sorted(card_script_counts().keys())
-    standard = [s for s in loaded if s.startswith("SWSH") or s in STANDARD_NON_SWSH_SETS]
+    standard = [s for s in loaded if s.startswith("SWSH") or s.startswith("PZ") or s in STANDARD_NON_SWSH_SETS]
     legacy = [s for s in loaded if s in LEGACY_SETS or s in ("Free_Energy", "CUSTOM")]
     return [
         GameFormat("Standard", DeckFormat.STANDARD.value, "Modified", sets=standard),

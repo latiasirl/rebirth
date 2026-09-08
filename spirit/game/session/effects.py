@@ -2141,6 +2141,11 @@ def is_evolution_pokemon(card: CardEntity) -> bool:
     )
 
 
+def is_lightning_pokemon(card: CardEntity) -> bool:
+    types = card.get_attribute(AttrID.POKEMON_TYPES) or []
+    return is_pokemon_card(card) and PokemonTypes.LIGHTNING.value in types
+
+
 def is_water_pokemon(card: CardEntity) -> bool:
     types = card.get_attribute(AttrID.POKEMON_TYPES) or []
     return is_pokemon_card(card) and PokemonTypes.WATER.value in types
@@ -2172,7 +2177,6 @@ def full_stack(pokemon: PokemonEntity) -> List[CardEntity]:
             out.append(entity)
         queue.extend(entity.children)
     return out
-
 
 def is_colorless_no_rule_box(card: CardEntity) -> bool:
     """Summoning Star's filter: Colorless Pokemon without a Rule Box."""

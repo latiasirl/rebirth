@@ -1890,5 +1890,35 @@
     "featuredArchetypes": [],
     "visibleUnfilterable": false,
     "promo": false
+  },
+  {
+    "name": "SV4PT5",
+    "externalId": "PAF",
+    "number": 1345,
+    "count": 1,
+    "filter": true,
+    "block": "SV",
+    "legalFormats": [
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": false
+  },
+  {
+    "name": "PZ5",
+    "externalId": "PZ5",
+    "number": 9005,
+    "count": 20,
+    "filter": true,
+    "block": "PZ",
+    "legalFormats": [
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": false
   }
 ]
