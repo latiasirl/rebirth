@@ -6,6 +6,8 @@
       "formatName": "Modified",
       "sets": [
         "Free_Energy",
+        "SV1",
+        "SV4",
         "SV4PT5",
         "SV05",
         "SV06",
@@ -57,6 +59,8 @@
         "CEL25",
         "PGO",
         "CZ",
+        "SV1",
+        "SV4",
         "SV4PT5",
         "SV05",
         "SV06",

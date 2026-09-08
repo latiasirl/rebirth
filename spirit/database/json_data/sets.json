@@ -2153,7 +2153,71 @@
     "externalId": "SVI",
     "number": 1120,
     "count": 3,
-    "filter": false,
+    "filter": true,
+    "block": "SV",
+    "legalFormats": [
+      "6402e830-7fed-4cd1-b172-2a320047c2bb",
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": true,
+    "promo": false
+  },
+  {
+    "name": "SV2",
+    "externalId": "PAL",
+    "number": 1130,
+    "count": 3,
+    "filter": true,
+    "block": "SV",
+    "legalFormats": [
+      "6402e830-7fed-4cd1-b172-2a320047c2bb",
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": true,
+    "promo": false
+  },
+  {
+    "name": "SV3",
+    "externalId": "OBF",
+    "number": 1140,
+    "count": 3,
+    "filter": true,
+    "block": "SV",
+    "legalFormats": [
+      "6402e830-7fed-4cd1-b172-2a320047c2bb",
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": true,
+    "promo": false
+  },
+  {
+    "name": "SV3PT5",
+    "externalId": "MEW",
+    "number": 1145,
+    "count": 3,
+    "filter": true,
+    "block": "SV",
+    "legalFormats": [
+      "6402e830-7fed-4cd1-b172-2a320047c2bb",
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": true,
+    "promo": false
+  },
+  {
+    "name": "SV4",
+    "externalId": "PAR",
+    "number": 1150,
+    "count": 3,
+    "filter": true,
     "block": "SV",
     "legalFormats": [
       "6402e830-7fed-4cd1-b172-2a320047c2bb",
@@ -2167,11 +2231,12 @@
   {
     "name": "SV4PT5",
     "externalId": "PAF",
-    "number": 1345,
+    "number": 1155,
     "count": 1,
     "filter": true,
     "block": "SV",
     "legalFormats": [
+      "6402e830-7fed-4cd1-b172-2a320047c2bb",
       "98c83df9-ec82-4193-84a8-104115ce4e25",
       "6a1dec5a-34db-4cee-a503-4ee759304135"
     ],
@@ -2214,7 +2279,7 @@
   {
     "name": "SV065",
     "externalId": "SFA",
-    "number": 1320,
+    "number": 1175,
     "count": 17,
     "filter": true,
     "block": "SV",
@@ -2278,7 +2343,7 @@
   {
     "name": "SV09",
     "externalId": "JTG",
-    "number": 1240,
+    "number": 1200,
     "count": 30,
     "filter": true,
     "block": "SV",
@@ -2294,7 +2359,7 @@
   {
     "name": "SV10",
     "externalId": "DRI",
-    "number": 1200,
+    "number": 1210,
     "count": 49,
     "filter": true,
     "block": "SV",
@@ -2310,7 +2375,7 @@
   {
     "name": "ZSV10PT5",
     "externalId": "BLK",
-    "number": 1250,
+    "number": 1215,
     "count": 13,
     "filter": true,
     "block": "SV",
@@ -2325,7 +2390,7 @@
   {
     "name": "RSV10PT5",
     "externalId": "WHT",
-    "number": 1230,
+    "number": 1220,
     "count": 10,
     "filter": true,
     "block": "SV",
@@ -2340,7 +2405,7 @@
   {
     "name": "SVP",
     "externalId": "PR-SV",
-    "number": 1330,
+    "number": 1230,
     "count": 2,
     "filter": true,
     "block": "SV",
