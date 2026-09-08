@@ -31,10 +31,10 @@ card = PokemonCardDef(
     abilities=[
         Ability(
             title="Tandem Unit",
-            game_text="Once during your turn, you may search your deck for up to 2 Basic [L] Pokémon and put them onto your Bench. Then, shuffle your deck.",
+            game_text="Once during your turn, you may search your deck for up to 2 Basic Lightning Pokémon and put them onto your Bench. Then, shuffle your deck.",
             activation=Activations.ONCE_PER_TURN,
             effect=search_to_bench(
-              predicate=is_basic_lightning_pokemon, count=2, then=None, prompt="Choose up to 2 Basic [L] Pokémon to put onto your Bench."
+              predicate=is_basic_lightning_pokemon, count=2, then=None, prompt="Choose up to 2 Basic Lightning Pokémon to put onto your Bench."
             ),
         ),
         Attack(
