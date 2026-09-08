@@ -15,7 +15,7 @@ def eri_playable(board, player_id):
 
 async def eri(ctx):
     # 0) Opponent reveals their hand
-    hand = await ctx.reveal_hand(of_player=ctx.opponent_id)
+    hand = ctx.hand(ctx.opponent_id)
 
     # Unreachable since Eri is only playable with 1+ card in opponent's hand
     if not hand:

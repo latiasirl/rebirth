@@ -17,7 +17,7 @@ async def claw_of_darkness(ctx):
     """200. Your opponent reveals their hand, and you discard a card you
     find there."""
     await ctx.deal_damage()
-    hand = await ctx.reveal_hand(of_player=ctx.opponent_id)
+    hand = ctx.hand(ctx.opponent_id)
     if not hand:
         return
     picks = await ctx.choose_cards(
