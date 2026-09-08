@@ -1,6 +1,6 @@
 # tool by latiasirl to help with reprints. feel free to ignore
 
-SET = "PZ7"
+SET = "PZ9"
 
 import os
 path = f"C:/Users/maya/Projects/rebirth/spirit/assets/cards/{SET}"
@@ -13,14 +13,15 @@ print(file_list)
 
 for image in file_list:
   card_name_num = image[:-4]
+  print(card_name_num)
   card_name = card_name_num.split("_")[0]
   card_num = card_name_num.split("_")[1]
   with open(f"game/scripts/cards/{SET}_test/{card_name_num}.py", "w") as new_py:
     template = f"""from spirit.game.data_utils import reprint, sibling_card
 from spirit.game.attributes import Rarities
 
-card = reprint(sibling_card(__file__, "../SV0/{card_name}_NUM.py"),
+card = reprint(sibling_card(__file__, "../ME/{card_name}_.py"),
               collector_number={card_num}, rarity=Rarities.Rare,
               set_code="{SET}", key="{SET}",
-              regulation_mark="H")"""
+              regulation_mark="I")"""
     new_py.write(template)
