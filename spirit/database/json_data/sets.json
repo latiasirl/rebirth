@@ -2623,7 +2623,11 @@
       "98c83df9-ec82-4193-84a8-104115ce4e25",
       "6a1dec5a-34db-4cee-a503-4ee759304135"
     ],
-    "featuredArchetypes": [],
+    "featuredArchetypes": [
+      "94733614-d13d-537f-aeac-a6b0f94cb370",
+      "c10b1d0e-8816-5268-8f83-ec7aa0d839f4",
+      "a4dd169c-5efd-51cf-83c2-960f5c79383f"
+    ],
     "visibleUnfilterable": false,
     "promo": false
   },
