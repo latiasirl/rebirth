@@ -909,6 +909,25 @@
     "promo": false
   },
   {
+    "name": "DV1",
+    "externalId": "DRV",
+    "number": 535,
+    "count": 20,
+    "filter": true,
+    "block": "BW",
+    "legalFormats": [
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6b33d420-73cc-40d4-ada5-88a7d68063a9"
+    ],
+    "featuredArchetypes": [
+      "5c59b3e6-cdd1-492b-a4ec-8a3b2149f7ad",
+      "a5970058-a849-46d4-832c-aa405db13efc",
+      "be5b2226-a3ae-404f-9184-10506d13f51d"
+    ],
+    "visibleUnfilterable": false,
+    "promo": false
+  },
+  {
     "name": "BW7",
     "externalId": "BCR",
     "number": 540,
