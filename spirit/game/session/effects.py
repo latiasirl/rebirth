@@ -2140,6 +2140,12 @@ def is_evolution_pokemon(card: CardEntity) -> bool:
         and card.get_attribute(AttrID.STAGE) != PokemonStage.BASIC.value
     )
 
+def is_ex_pokemon(card: CardEntity) -> bool:
+    return (
+        is_pokemon_card(card)
+        and card.get_attribute(AttrID.STAGE) != PokemonStage.BASIC.value
+    )
+
 
 def is_lightning_pokemon(card: CardEntity) -> bool:
     types = card.get_attribute(AttrID.POKEMON_TYPES) or []

@@ -32,6 +32,9 @@ async def eri(ctx):
         display_cards=hand,
     )
 
+    if not picks:
+        return
+
     # 2) Discard those cards from your opponent's hand
     await ctx.discard_cards(picks)
 

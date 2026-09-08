@@ -1,4 +1,4 @@
-from spirit.game.data_utils import PokemonCardDef, Attack, Ability, Activations, def_for, subtypes_for
+from spirit.game.data_utils import PokemonCardDef, Attack, Ability, Activations
 from spirit.game.attributes import PokemonStage, PokemonTypes, Rarities
 from spirit.game.card_effects.support_common import search_to_bench
 from spirit.game.session.effects import is_basic_pokemon, is_lightning_pokemon, is_pokemon_card
