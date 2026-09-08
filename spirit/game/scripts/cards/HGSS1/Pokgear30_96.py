@@ -22,13 +22,13 @@ async def pokegear_30(ctx):
 
 card = ItemCardDef(
     guid="307f7f44-275a-52a2-8f2e-300fd37739e1",
-    key="HS",
+    key="HGSS1",
     name="com.direwolfdigital.cake.data.archetypes.trainer.Pokgear30.Name",
     display_name="Pokégear 3.0",
     searchable_by=["Pokégear 3.0", "Item"],
     subtypes=["Item"],
     collector_number=96,
-    set_code="HS",
+    set_code="HGSS1",
     rarity=Rarities.Uncommon,
     effect=pokegear_30
 )
