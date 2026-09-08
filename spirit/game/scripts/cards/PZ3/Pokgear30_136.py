@@ -2,6 +2,6 @@ from spirit.game.data_utils import reprint, sibling_card
 from spirit.game.attributes import Rarities
 
 card = reprint(sibling_card(__file__, "../HS/Pokgear30_96.py"),
-               collector_number=174, rarity=Rarities.Common,
-               set_code="SV1", key="SV1",
+               collector_number=136, rarity=Rarities.Rare,
+               set_code="PZ3", key="PZ3",
                regulation_mark="G")

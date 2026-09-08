@@ -2,6 +2,6 @@ from spirit.game.data_utils import reprint, sibling_card
 from spirit.game.attributes import Rarities
 
 card = reprint(sibling_card(__file__, "../SWSH1/ProfessorsResearch_178.py"),
-               collector_number=147, rarity=Rarities.RareHolo,
-               set_code="SWSH9", key="SWSH9",
-               regulation_mark="F")
+               collector_number=65, rarity=Rarities.Rare,
+               set_code="PZ4", key="PZ4",
+               regulation_mark="G")
