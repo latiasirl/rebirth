@@ -2523,10 +2523,10 @@
     "promo": false
   },
   {
-    "name": "ME6",
-    "externalId": "ME6",
-    "number": 1340,
-    "count": 35,
+    "name": "30TH",
+    "externalId": "30C",
+    "number": 1315,
+    "count": 1,
     "filter": true,
     "block": "MEGA",
     "legalFormats": [
@@ -2536,6 +2536,78 @@
     "featuredArchetypes": [],
     "visibleUnfilterable": false,
     "promo": false
+  },
+  {
+    "name": "Ann30thR",
+    "externalId": "30A",
+    "number": 1314,
+    "count": 1,
+    "filter": true,
+    "block": "MEGA",
+    "legalFormats": [],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": false
+  },
+  {
+    "name": "ME6",
+    "externalId": "DLR",
+    "number": 1320,
+    "count": 1,
+    "filter": true,
+    "block": "MEGA",
+    "legalFormats": [
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": false
+  },
+  {
+    "name": "ME6PT5",
+    "externalId": "ME6PT5",
+    "number": 1325,
+    "count": 1,
+    "filter": true,
+    "block": "MEGA",
+    "legalFormats": [
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": false
+  },
+  {
+    "name": "ME7",
+    "externalId": "FLO",
+    "number": 1330,
+    "count": 1,
+    "filter": true,
+    "block": "MEGA",
+    "legalFormats": [
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": false
+  },
+  {
+    "name": "MEP",
+    "externalId": "MEP",
+    "number": 1258,
+    "count": 1,
+    "filter": true,
+    "block": "MEGA",
+    "legalFormats": [
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": true
   },
   {
     "name": "PZ1",
