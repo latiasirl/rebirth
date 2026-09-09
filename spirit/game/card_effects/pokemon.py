@@ -147,6 +147,18 @@ async def wild_tackle(ctx):
     await ctx.deal_damage(30, target=ctx.attacker, apply_modifiers=False)
 
 
+# --- Iron Hands ex (PAR) -------------------------------------------------
+
+async def amp_you_very_much(ctx):
+    """120. If the opposing Pokemon is Knocked Out by this damage, +1 Prize."""
+    defender = ctx.defender
+    await ctx.deal_damage()
+    if (
+        defender is not None
+        and defender in ctx.knockouts
+    ):
+        ctx.extra_prizes += 1
+
 # --- Archeops (SIT): Primal Turbo ----------------------------------------
 
 async def primal_turbo(ctx):
