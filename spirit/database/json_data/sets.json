@@ -2452,6 +2452,21 @@
     "promo": true
   },
   {
+    "name": "SVE",
+    "externalId": "SVE",
+    "number": 1109,
+    "count": 3,
+    "filter": false,
+    "block": "SV",
+    "legalFormats": [
+      "6402e830-7fed-4cd1-b172-2a320047c2bb",
+      "98c83df9-ec82-4193-84a8-104115ce4e25"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": false
+  },
+  {
     "name": "ME1",
     "externalId": "MEG",
     "number": 1260,
@@ -2627,6 +2642,21 @@
     "featuredArchetypes": [],
     "visibleUnfilterable": false,
     "promo": true
+  },
+  {
+    "name": "MEE",
+    "externalId": "MEE",
+    "number": 1257,
+    "count": 1,
+    "filter": false,
+    "block": "MEGA",
+    "legalFormats": [
+      "98c83df9-ec82-4193-84a8-104115ce4e25",
+      "6a1dec5a-34db-4cee-a503-4ee759304135"
+    ],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": false
   },
   {
     "name": "PZ1",
