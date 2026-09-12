@@ -1,28 +1,11 @@
 from spirit.game.data_utils import ItemCardDef
 from spirit.game.attributes import Rarities
 from spirit.game.card_effects.trainers import deck_nonempty
-from spirit.game.session.effects import is_pokemon_card
-from spirit.game.session.passives import effective_bench_capacity
 from spirit.game.card_effects.support_common import search_to_hand
 
 
 def _debug_search_condition(board, player_id) -> bool:
     return deck_nonempty(board, player_id)
-
-
-async def debug_ball(ctx):
-    """Search for any number of Pokémon and put them onto your Bench."""
-    space = effective_bench_capacity(ctx.board, ctx.player_id) - len(ctx.my_bench())
-    if space <= 0:
-        await ctx.shuffle_deck()
-        return
-    picks = await ctx.search_deck(
-        is_pokemon_card, count=space, minimum=0,
-        prompt="Choose Pokémon to put onto your Bench.",
-    )
-    for card in picks:
-        await ctx.bench_pokemon(card)
-    await ctx.shuffle_deck()
 
 
 card = ItemCardDef(
