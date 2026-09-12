@@ -2840,6 +2840,18 @@
     "promo": false
   },
   {
+    "name": "DEBUG",
+    "externalId": "DEBUG",
+    "number": 9998,
+    "count": 1,
+    "filter": false,
+    "block": "NONE",
+    "legalFormats": [],
+    "featuredArchetypes": [],
+    "visibleUnfilterable": false,
+    "promo": false
+  },
+  {
     "name": "CUSTOM",
     "externalId": "CUSTOM",
     "number": 9999,
