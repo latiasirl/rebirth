@@ -2845,10 +2845,10 @@
     "number": 9998,
     "count": 1,
     "filter": false,
-    "block": "NONE",
+    "block": "DEBUG",
     "legalFormats": [],
     "featuredArchetypes": [],
-    "visibleUnfilterable": false,
+    "visibleUnfilterable": true,
     "promo": false
   },
   {
