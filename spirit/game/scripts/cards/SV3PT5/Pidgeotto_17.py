@@ -17,7 +17,7 @@ card = PokemonCardDef(
     stage=PokemonStage.BASIC,
     retreat_cost=0,
     weakness_type=PokemonTypes.LIGHTNING,
-    weakness_type=PokemonTypes.FIGHTING,
+    resistance_type=PokemonTypes.FIGHTING,
     evolves_from="com.direwolfdigital.cake.data.archetypes.pokemon.Pidgey.Name",
     abilities=[
         Attack(
